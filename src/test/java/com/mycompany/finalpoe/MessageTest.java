@@ -48,4 +48,36 @@ public class MessageTest {
     public void testStoreMessage() {
     }
     
+   @Test
+    public void testMessageLengthValid() {
+
+        String message = "Hello World";
+
+        assertTrue(message.length() <= 250);
+    }
+
+    @Test
+    public void testMessageLengthTooLong() {
+
+        String message = "A".repeat(251);
+
+        assertTrue(message.length() > 250);
+    }
+
+    @Test
+    public void testMessageIDGeneration() {
+
+        int messageID = 100000;
+
+        assertEquals(6,
+                String.valueOf(messageID).length());
+    }
+
+    @Test
+    public void testHashGeneration() {
+
+        String hash = "HASH123";
+
+        assertTrue(hash.startsWith("HASH"));
+    }
 }

@@ -145,7 +145,7 @@ public class Message {
             return "Message successfully stored to messages.json";
         } catch (IOException e) {
             return "Error storing message: " + e.getMessage();
-        }
+        } 
     }
 }
 
