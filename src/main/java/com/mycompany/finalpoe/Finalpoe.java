@@ -96,8 +96,7 @@ public class Finalpoe {
         input.nextLine();
 
         int sentCount = 0;
-
-        // DATA STRUCTURES (MERGED)
+        
         ArrayList<String> sentMessages = new ArrayList<>();
         ArrayList<String> storedMessages = new ArrayList<>();
         ArrayList<String> disregardedMessages = new ArrayList<>();
@@ -242,7 +241,7 @@ public class Finalpoe {
             }
 
             // =========================
-            // STORED MENU (FROM FIRST PROGRAM)
+            // STORED MENU 
             // =========================
             else if (menuOption == 4) {
 
