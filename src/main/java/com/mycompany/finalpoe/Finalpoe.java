@@ -20,9 +20,7 @@ public class Finalpoe {
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
         
-        Message msg = new Message(); // assuming your class exists
-
-   
+        Message msg = new Message(); // assuming your class exists   
 
         System.out.println("\n--- Registration ---");
         // Get user details
