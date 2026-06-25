@@ -90,9 +90,7 @@ public class Finalpoe {
 
         System.out.println("\nLogin successful. Welcome " + username + "!");
 
-        // =========================
         // MESSAGE LIMIT
-        // =========================
         System.out.print("Enter number of messages you want to send: ");
         int maxMessages = input.nextInt();
         input.nextLine();
