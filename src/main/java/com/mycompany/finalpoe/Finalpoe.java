@@ -97,9 +97,7 @@ public class Finalpoe {
 
         int sentCount = 0;
 
-        // =========================
         // DATA STRUCTURES (MERGED)
-        // =========================
         ArrayList<String> sentMessages = new ArrayList<>();
         ArrayList<String> storedMessages = new ArrayList<>();
         ArrayList<String> disregardedMessages = new ArrayList<>();
